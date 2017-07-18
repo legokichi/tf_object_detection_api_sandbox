@@ -1,0 +1,6 @@
+[submodule "tensorflow_object_detection_create_coco_tfrecord"]
+	path = tensorflow_object_detection_create_coco_tfrecord
+	url = https://github.com/MetaPeak/tensorflow_object_detection_create_coco_tfrecord.git
+[submodule "models"]
+	path = models
+	url = https://github.com/tensorflow/models.git
