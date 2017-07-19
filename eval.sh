@@ -1,4 +1,5 @@
 env \
+    CUDA_VISIBLE_DEVICES=-1 \
     PYTHONPATH=${PYTHONPATH}:/home/ubuntu/github/tf_object_detection_api_sandbox/models/slim/:/home/ubuntu/github/tf_object_detection_api_sandbox/models/object_detection:/home/ubuntu/github/tf_object_detection_api_sandbox/models/ \
 python models/object_detection/eval.py \
     --logtostderr \
